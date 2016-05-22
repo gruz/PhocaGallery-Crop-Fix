@@ -6,8 +6,8 @@
   <copyright>Copyright (C) 2004-2016 Gruz All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
   <authorEmail>arygroup@gmail.com</authorEmail>
-  <authorUrl>http://gruz.org.ua/en/extensions/phocagallery-crop-fix.html</authorUrl>
-  <version>0.0.1</version>
+  <authorUrl>http://gruz.org.ua/en/extensions/phocagalleryfix.html</authorUrl>
+  <version>0.0.2</version>
   <description>PLG_SYSTEM_PHOCAGALLERYFIX_FIELD_DESC</description>
   <files>
     <folder>extensions</folder>

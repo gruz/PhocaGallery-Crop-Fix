@@ -1,4 +1,10 @@
 <?php
+/*
+ * @package		PhocaGalleryFix
+ * @author Gruz <arygroup@gmail.com>
+ * @copyright	Copyleft - All rights reversed
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+*/
 defined('_JEXEC') or die;
 				/* ##mygruz20160521012924 { Added : */
 //~ dump ($src,'$src');

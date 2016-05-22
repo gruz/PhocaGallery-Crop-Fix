@@ -1,12 +1,14 @@
 <?php
 /**
- * @package     Joomla.Plugin
- * @subpackage  System.languagecode
+ * By default PhocaGallery crops from the center. So at portrait images heads are cut off.
+ * Sending greetings to Maximilien François Marie Isidore de Robespierre and Procrustes.
+ * So select what you want to cut - legs(crop start from top),  heads(crop start from bottom), heads and legs (default PhocaGallery behaviour)
  *
- * @copyright   Copyright (C) 2005 - 2016 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @package		PhocaGalleryFix
+ * @author Gruz <arygroup@gmail.com>
+ * @copyright	Copyleft - All rights reversed
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
-
 defined('_JEXEC') or die;
 
 /**
@@ -247,8 +249,7 @@ class PlgSystemPhocagalleryfix extends JPlugin
 		// Check we have a form.
 		if (!($form instanceof JForm))
 		{
-			$this->_subject->setError('JERROR_NOT_A_FORM');
-
+			JFactory::getApplication()->enqueueMessage(JText::_('JERROR_NOT_A_FORM'), 'error');
 			return false;
 		}
 		// Check we are manipulating the languagecode plugin.
